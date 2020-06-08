@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: block;
+}
+.container {
+  margin: 5rem auto;
+  width: 80%;
+}
+.my-photos {
+  display: inline-flex;
+}
+.myskills{
+  display: grid;
+  grid-auto-flow: row;
+  background-color: #bde6f3;
+  border: 3px solid hsla(270, 50%, 45%, 1);
+  color: darkblue;
+  width: 30%;
+  padding:2rem;
+  margin: 3rem;
+}
+.my-photos img {
+  border-radius: 8px;
+}
+
+.picture img {
+  border-radius: 50%;
+}
+.picture {
+  display: grid;
+  grid-auto-flow: column;
+}
+.project {
+  margin: 3rem;
+  padding: 2rem;
+}
+
+#mechanic {
+  color: white;
+  font-size: 2rem;
+}
+#developer {
+  color: red;
+  font-size: 2rem;
+}
+.caption {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+
+footer {
+  text-align: center;
+  color: whitesmoke;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 191, 255, 0.281);
+}
+.page-links {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 1rem;
+  right: 1rem;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.page-links a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #a1c7f1;
+  display: block;
+}
+
+.project-description {
+  margin: 1rem;
+}

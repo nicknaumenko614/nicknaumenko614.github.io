@@ -1,0 +1,54 @@
+.project {
+  background-color: #bde6f3;
+  border: 3px solid hsla(270, 50%, 45%, 1);
+  color: darkblue;
+}
+
+.mystory {
+  background-color: #bde6f3;
+  border: 3px solid hsla(270, 50%, 45%, 1);
+  color: darkblue;
+  width: 80%;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+header {
+  color: rgb(237, 235, 247);
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+
+.contact {
+  background-color: #bde6f3;
+  border: 3px solid hsla(270, 50%, 45%, 1);
+  font: 2em sans-serif;
+  padding: 1rem;
+  text-align: center;
+  color: darkblue;
+}
+
+.contact a:link {
+  color: yellow;
+}
+.contact a:hover {
+  color: darkorange;
+}
+.contact a:visited {
+  color: rgb(158, 63, 63);
+}
+body {
+  background-image: url("images.html/circuit-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+footer a:link {
+  color: yellow;
+}
+footer a:hover {
+  color: darkorange;
+}
+.page-links a:hover {
+  color: #eb921d;
+}
