@@ -14,8 +14,8 @@
 }
 
 header {
-  color: rgb(237, 235, 247);
-  margin-bottom: 5rem;
+  color:black;
+  
   font-size: 3rem;
 }
 
@@ -38,7 +38,7 @@ header {
   color: rgb(158, 63, 63);
 }
 body {
-  background-image: url("images.html/circuit-background.jpg");
+  background-image: url("images/shapes.jpg");
   background-position: center;
   background-size: cover;
 }

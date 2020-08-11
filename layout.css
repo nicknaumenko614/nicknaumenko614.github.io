@@ -1,14 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 header {
-  display: block;
+  text-align: center;
 }
 .container {
-  margin: 5rem auto;
+  margin: 5rem 2rem;
   width: 80%;
 }
 .my-photos {
@@ -29,11 +24,20 @@ header {
 }
 
 .picture img {
-  border-radius: 50%;
+
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  
 }
 .picture {
   display: grid;
   grid-auto-flow: column;
+  padding: 0;
+  margin: 0;
+}
+.mechanic, .developer {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
 }
 .project {
   margin: 3rem;
@@ -43,14 +47,17 @@ header {
 #mechanic {
   color: white;
   font-size: 2rem;
+  text-align: center;
 }
 #developer {
   color: red;
   font-size: 2rem;
+  text-align: center;
 }
 .caption {
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
 }
 
 
@@ -61,7 +68,7 @@ footer {
   width: 100%;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 191, 255, 0.281);
+  background-color: rgba(61, 61, 61, 0.281);
 }
 .page-links {
   height: 100%;
